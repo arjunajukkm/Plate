@@ -1,0 +1,42 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Plate",
+      "hasCanvas": false,
+      "bodyTextLen": 142,
+      "bodyTextHash": "85607f23ee05d4fc28f5776801bfc44defea04b06f86ee006b45cf4461f0fff0",
+      "bodyTextPrefix": "Plate Sign in or create an account. Your exercises and sets stay",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Plate",
+      "hasCanvas": false,
+      "bodyTextLen": 28,
+      "bodyTextHash": "cc1cf6466ba23d75072940e9d0c7ffcbe73ced6569ec492f6f704dc08b0dbbab",
+      "bodyTextPrefix": "Plate Checking your account…",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND NOTE: no custom public/og.jpg — the platform will serve the og.grok.me placeholder. Custom cards are the default for games of every kind (DOM board/word games included), whimsical apps, creative tools, and brand-forward pages — only plain utilities (converters, CRUD trackers, admin dashboards) keep the placeholder. If this app is not a plain utility, finish the brand-asset pass per /workspace/.grok/skills/og/SKILL.md."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "mobile: body text collapsed (142 -> 28 chars)"
+  ]
+}
